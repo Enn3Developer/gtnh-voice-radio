@@ -1,0 +1,6 @@
+tile.gtnhvoiceradio.radio.name=Radio
+gtnhvoiceradio.chat.on=Radio on - now playing: %s
+gtnhvoiceradio.chat.off=Radio off
+gtnhvoiceradio.chat.now=Now playing: %s
+gtnhvoiceradio.chat.no_station=The station is off air (no playlistUrl configured on the server, or it is still loading)
+gtnhvoiceradio.chat.reloading=Reloading the station playlist...

@@ -1,0 +1,21 @@
+{
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "In-world radios tuned to a server-configured playlist, played through GTNH Voice.",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "https://github.com/enn3developer/gtnh-voice-radio",
+		"updateUrl": "",
+		"authorList": ["Enn3Developer"],
+		"credits": "",
+		"logoFile": "",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": ["gtnhvoice"],
+		"dependencies": ["gtnhvoice"],
+		"dependants": [],
+		"useDependencyInformation": true
+	}]
+}

@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:2,Tone With Title
+tone%20440.mp3
+
+# no EXTINF: title from the file name, duration measured
+tone 440.mp3
+missing.mp3
