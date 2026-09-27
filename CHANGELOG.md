@@ -13,3 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Server-side station clock with shuffle, broadcasting the current track and position to clients
 - Client playback through a GTNH Voice addon source, from the nearest powered radio in range
 - `/radio now|skip|reload`
+- LV Assembler recipe (GregTech only - without GregTech the radio has no recipe)
