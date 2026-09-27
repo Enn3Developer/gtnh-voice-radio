@@ -89,15 +89,15 @@ jobs:
 
       - name: Test the mod was loaded
         # A clean startup proves nothing on its own: FML skips a mod jar it cannot parse and
-        # boots anyway. Assert gtnhvoice really initialised.
+        # boots anyway. Assert the radio really initialised (CI has no playlist, so it goes off air).
         run: |
           if grep --quiet --fixed-strings 'failed to read properly, it will be ignored' server.log; then
             echo 'FML could not read the mod jar and ignored it' >&2
             exit 1
           fi
 
-          if ! grep --quiet --fixed-strings 'I am GTNH Voice' server.log; then
-            echo 'Server started but gtnhvoice never initialised' >&2
+          if ! grep --quiet --fixed-strings '[Radio] No playlistUrl configured' server.log; then
+            echo 'Server started but gtnhvoiceradio never initialised' >&2
             exit 1
           fi
 
